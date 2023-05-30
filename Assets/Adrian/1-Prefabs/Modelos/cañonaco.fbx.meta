@@ -1,0 +1,1557 @@
+fileFormatVersion: 2
+guid: a07de1dc9b59efd43b31b58c0c38671a
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -933534202083664699
+    second: rig_CharRoot|bip.001|Take 001|BaseLayer
+  - first:
+      74: 897671690629722072
+    second: rig_CharRoot|bip.002|Take 001|BaseLayer
+  - first:
+      74: -7533614198579507701
+    second: rig_CharRoot|bip|Take 001|BaseLayer
+  - first:
+      74: 1711535293695589264
+    second: rig_CharRoot|Controllers.001|Controllers.001|Controllers.001Action|Controlle
+  - first:
+      74: -270359895932279412
+    second: rig_CharRoot|Controllers.001|Controllers.001|ControllersAction|Controllers.0
+  - first:
+      74: 5632635744236222714
+    second: rig_CharRoot|Controllers.001|Controllers.001|Oculus HeadsetAction|Controller
+  - first:
+      74: 5386752766542836171
+    second: rig_CharRoot|Controllers|Controllers|Controllers.001Action|Controllers|Contr
+  - first:
+      74: 2426938403250124459
+    second: rig_CharRoot|Controllers|Controllers|ControllersAction|Controllers|Controlle
+  - first:
+      74: -499691383838201706
+    second: rig_CharRoot|Controllers|Controllers|Oculus HeadsetAction|Controllers|Oculus
+  - first:
+      74: 1214591680787267475
+    second: rig_CharRoot|Oculus Headset|Oculus Headset|Controllers.001Action|Oculus
+      Head
+  - first:
+      74: -1118571061786971518
+    second: rig_CharRoot|Oculus Headset|Oculus Headset|ControllersAction|Oculus Headset|
+  - first:
+      74: -184236496010646343
+    second: rig_CharRoot|Oculus Headset|Oculus Headset|Oculus HeadsetAction|Oculus
+      Heads
+  - first:
+      74: -8739965567598780505
+    second: rig_CharRoot|rig_CharRoot.001|Take 001|BaseLayer
+  - first:
+      74: 7437426055707475665
+    second: rig_CharRoot|rig_CharRoot.002|Take 001|BaseLayer
+  - first:
+      74: -4404246191288060566
+    second: rig_CharRoot|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -3337277967754009845
+    second: Controllers|bip.001|Take 001|BaseLayer
+  - first:
+      74: -755890396394564430
+    second: Controllers|bip.002|Take 001|BaseLayer
+  - first:
+      74: -7414525653478998415
+    second: Controllers|bip|Take 001|BaseLayer
+  - first:
+      74: -8009696292203505092
+    second: Controllers|Controllers.001|Controllers.001|Controllers.001Action|Controlle
+  - first:
+      74: 4957496471494701232
+    second: Controllers|Controllers.001|Controllers.001|ControllersAction|Controllers.0
+  - first:
+      74: 2748032752779974522
+    second: Controllers|Controllers.001|Controllers.001|Oculus HeadsetAction|Controller
+  - first:
+      74: 7383820280147179281
+    second: Controllers|Controllers|Controllers|Controllers.001Action|Controllers|Contr
+  - first:
+      74: -8691269061115643489
+    second: Controllers|Controllers|Controllers|ControllersAction|Controllers|Controlle
+  - first:
+      74: -8725928186052700394
+    second: Controllers|Controllers|Controllers|Oculus HeadsetAction|Controllers|Oculus
+  - first:
+      74: -3061381719434633998
+    second: Controllers|Oculus Headset|Oculus Headset|Controllers.001Action|Oculus
+      Head
+  - first:
+      74: -390637270438720822
+    second: Controllers|Oculus Headset|Oculus Headset|ControllersAction|Oculus Headset|
+  - first:
+      74: -3728558340784867510
+    second: Controllers|Oculus Headset|Oculus Headset|Oculus HeadsetAction|Oculus
+      Heads
+  - first:
+      74: 2014911574996834026
+    second: Controllers|rig_CharRoot.001|Take 001|BaseLayer
+  - first:
+      74: -7500048091329268494
+    second: Controllers|rig_CharRoot.002|Take 001|BaseLayer
+  - first:
+      74: -5050004722630008310
+    second: Controllers|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -639218792545735569
+    second: Controllers.001|bip.001|Take 001|BaseLayer
+  - first:
+      74: 1772571378069423851
+    second: Controllers.001|bip.002|Take 001|BaseLayer
+  - first:
+      74: 7251228963013665663
+    second: Controllers.001|bip|Take 001|BaseLayer
+  - first:
+      74: 3779459895211858927
+    second: Controllers.001|Controllers.001|Controllers.001|Controllers.001Action|Controlle
+  - first:
+      74: 1234091378080928590
+    second: Controllers.001|Controllers.001|Controllers.001|ControllersAction|Controllers.0
+  - first:
+      74: 770901852678970126
+    second: Controllers.001|Controllers.001|Controllers.001|Oculus HeadsetAction|Controller
+  - first:
+      74: -1149267715080320532
+    second: Controllers.001|Controllers|Controllers|Controllers.001Action|Controllers|Contr
+  - first:
+      74: -1220456921905890100
+    second: Controllers.001|Controllers|Controllers|ControllersAction|Controllers|Controlle
+  - first:
+      74: 4443363100012405574
+    second: Controllers.001|Controllers|Controllers|Oculus HeadsetAction|Controllers|Oculus
+  - first:
+      74: -8357972857944622966
+    second: Controllers.001|Oculus Headset|Oculus Headset|Controllers.001Action|Oculus
+      Head
+  - first:
+      74: -4429415747483888750
+    second: Controllers.001|Oculus Headset|Oculus Headset|ControllersAction|Oculus
+      Headset|
+  - first:
+      74: 5398978466996529009
+    second: Controllers.001|Oculus Headset|Oculus Headset|Oculus HeadsetAction|Oculus
+      Heads
+  - first:
+      74: -8266733460891577127
+    second: Controllers.001|rig_CharRoot.001|Take 001|BaseLayer
+  - first:
+      74: 8309285576963476034
+    second: Controllers.001|rig_CharRoot.002|Take 001|BaseLayer
+  - first:
+      74: -8818442094365717445
+    second: Controllers.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: 4535044570606527155
+    second: rig_CharRoot.001|bip.001|Take 001|BaseLayer
+  - first:
+      74: 3834319943349198359
+    second: rig_CharRoot.001|bip.002|Take 001|BaseLayer
+  - first:
+      74: -1301220287947200437
+    second: rig_CharRoot.001|bip|Take 001|BaseLayer
+  - first:
+      74: 8181821846615019077
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Controllers.001Action|Controlle
+  - first:
+      74: -4201673374819435440
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|ControllersAction|Controllers.0
+  - first:
+      74: 8355567568823012483
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Oculus HeadsetAction|Controller
+  - first:
+      74: -6062923155757036985
+    second: rig_CharRoot.001|Controllers|Controllers|Controllers.001Action|Controllers|Contr
+  - first:
+      74: 6565753158972234875
+    second: rig_CharRoot.001|Controllers|Controllers|ControllersAction|Controllers|Controlle
+  - first:
+      74: 9211956978630888469
+    second: rig_CharRoot.001|Controllers|Controllers|Oculus HeadsetAction|Controllers|Oculus
+  - first:
+      74: 3017416590277214170
+    second: rig_CharRoot.001|Oculus Headset|Oculus Headset|Controllers.001Action|Oculus
+      Head
+  - first:
+      74: 8049280097359426580
+    second: rig_CharRoot.001|Oculus Headset|Oculus Headset|ControllersAction|Oculus
+      Headset|
+  - first:
+      74: -8934936309794996665
+    second: rig_CharRoot.001|Oculus Headset|Oculus Headset|Oculus HeadsetAction|Oculus
+      Heads
+  - first:
+      74: 8014805791686457517
+    second: rig_CharRoot.001|rig_CharRoot.001|Take 001|BaseLayer
+  - first:
+      74: 3037869315494386548
+    second: rig_CharRoot.001|rig_CharRoot.002|Take 001|BaseLayer
+  - first:
+      74: 678486997321752744
+    second: rig_CharRoot.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -6741850281494747287
+    second: rig_CharRoot.002|bip.001|Take 001|BaseLayer
+  - first:
+      74: -1252742786874173837
+    second: rig_CharRoot.002|bip.002|Take 001|BaseLayer
+  - first:
+      74: -4431051476150565604
+    second: rig_CharRoot.002|bip|Take 001|BaseLayer
+  - first:
+      74: -8428431072660789473
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Controllers.001Action|Controlle
+  - first:
+      74: -1861092962576779691
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|ControllersAction|Controllers.0
+  - first:
+      74: -8284753343044836670
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Oculus HeadsetAction|Controller
+  - first:
+      74: -3532166894024633679
+    second: rig_CharRoot.002|Controllers|Controllers|Controllers.001Action|Controllers|Contr
+  - first:
+      74: 2954995635201142053
+    second: rig_CharRoot.002|Controllers|Controllers|ControllersAction|Controllers|Controlle
+  - first:
+      74: -1444812712575999606
+    second: rig_CharRoot.002|Controllers|Controllers|Oculus HeadsetAction|Controllers|Oculus
+  - first:
+      74: 4965033048253894966
+    second: rig_CharRoot.002|Oculus Headset|Oculus Headset|Controllers.001Action|Oculus
+      Head
+  - first:
+      74: 5957905759553979197
+    second: rig_CharRoot.002|Oculus Headset|Oculus Headset|ControllersAction|Oculus
+      Headset|
+  - first:
+      74: -1672675692909770339
+    second: rig_CharRoot.002|Oculus Headset|Oculus Headset|Oculus HeadsetAction|Oculus
+      Heads
+  - first:
+      74: 1967108099233977534
+    second: rig_CharRoot.002|rig_CharRoot.001|Take 001|BaseLayer
+  - first:
+      74: 1085781362285516035
+    second: rig_CharRoot.002|rig_CharRoot.002|Take 001|BaseLayer
+  - first:
+      74: 1178190064704472283
+    second: rig_CharRoot.002|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -6029692445810780562
+    second: rig_CharRoot|Controllers.001|Controllers.001|bip.001|Take 001|BaseLayer|Cont
+  - first:
+      74: 6213541496693010896
+    second: rig_CharRoot|Controllers.001|Controllers.001|bip.002|Take 001|BaseLayer|Cont
+  - first:
+      74: 4502132918982379008
+    second: rig_CharRoot|Controllers.001|Controllers.001|bip|Take 001|BaseLayer|Controll
+  - first:
+      74: -5638520844143435426
+    second: rig_CharRoot|Controllers.001|Controllers.001|Controllers.001|Controllers.001
+  - first:
+      74: -5065882560164555373
+    second: rig_CharRoot|Controllers.001|Controllers.001|Controllers.001|Controllers.002
+  - first:
+      74: 8917136677631697419
+    second: rig_CharRoot|Controllers.001|Controllers.001|Controllers.001|Controllers.003
+  - first:
+      74: 7941668826081389320
+    second: rig_CharRoot|Controllers.001|Controllers.001|Controllers|Controllers|Con
+  - first:
+      74: 7264247661500029323
+    second: rig_CharRoot|Controllers.001|Controllers.001|Controllers|Controllers|Control
+  - first:
+      74: 922197523778345989
+    second: 'rig_CharRoot|Controllers.001|Controllers.001|Controllers|Controllers|Oculus '
+  - first:
+      74: -6959392454398440448
+    second: rig_CharRoot|Controllers.001|Controllers.001|Oculus Headset|Oculus Heads
+  - first:
+      74: 3462957063825831112
+    second: rig_CharRoot|Controllers.001|Controllers.001|Oculus Headset|Oculus Headset|C
+  - first:
+      74: -1331192657673332108
+    second: rig_CharRoot|Controllers.001|Controllers.001|Oculus Headset|Oculus Headset|O
+  - first:
+      74: 5429656742283128037
+    second: rig_CharRoot|Controllers.001|Controllers.001|rig_CharRoot.001|Take 001|BaseL
+  - first:
+      74: 8084832724734908046
+    second: rig_CharRoot|Controllers.001|Controllers.001|rig_CharRoot.002|Take 001|BaseL
+  - first:
+      74: -8641934967946296244
+    second: rig_CharRoot|Controllers.001|Controllers.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: 7992543020056377859
+    second: rig_CharRoot|Controllers|Controllers|bip.001|Take 001|BaseLayer|Controllers|
+  - first:
+      74: 4596168610656308886
+    second: rig_CharRoot|Controllers|Controllers|bip.002|Take 001|BaseLayer|Controllers|
+  - first:
+      74: -437974120101138022
+    second: rig_CharRoot|Controllers|Controllers|bip|Take 001|BaseLayer|Controllers|bip|
+  - first:
+      74: -7415789725620153615
+    second: rig_CharRoot|Controllers|Controllers|Controllers.001|Controllers.001|Con
+  - first:
+      74: -6138598816117481510
+    second: rig_CharRoot|Controllers|Controllers|Controllers.001|Controllers.001|Control
+  - first:
+      74: -6152499975242609756
+    second: 'rig_CharRoot|Controllers|Controllers|Controllers.001|Controllers.001|Oculus '
+  - first:
+      74: -7698751468358198231
+    second: rig_CharRoot|Controllers|Controllers|Controllers|Controllers|Controllers.001
+  - first:
+      74: -3022963866283443263
+    second: rig_CharRoot|Controllers|Controllers|Controllers|Controllers|ControllersActi
+  - first:
+      74: -2599350907595489331
+    second: rig_CharRoot|Controllers|Controllers|Controllers|Controllers|Oculus HeadsetA
+  - first:
+      74: -1133605353991432229
+    second: rig_CharRoot|Controllers|Controllers|Oculus Headset|Oculus Headset|Contr
+  - first:
+      74: -6375275503300389898
+    second: rig_CharRoot|Controllers|Controllers|Oculus Headset|Oculus Headset|Controlle
+  - first:
+      74: 5130229897240538268
+    second: rig_CharRoot|Controllers|Controllers|Oculus Headset|Oculus Headset|Oculus
+      He
+  - first:
+      74: -4356087364472367779
+    second: rig_CharRoot|Controllers|Controllers|rig_CharRoot.001|Take 001|BaseLayer|Con
+  - first:
+      74: -20464688254894121
+    second: rig_CharRoot|Controllers|Controllers|rig_CharRoot.002|Take 001|BaseLayer|Con
+  - first:
+      74: -2017214692687103751
+    second: rig_CharRoot|Controllers|Controllers|rig_CharRoot|Take 001|BaseLayer|Control
+  - first:
+      74: 3398709833458937557
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: -6895724399392772745
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: -239518908948538310
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 3143788237162527720
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle
+  - first:
+      74: 8758900795231405712
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle.001
+  - first:
+      74: -5547233400004164332
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controllers.0
+  - first:
+      74: 2305929450422300690
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|C
+  - first:
+      74: -956715961826934113
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Contr
+  - first:
+      74: -7970131105795731926
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Oculu
+  - first:
+      74: -3669091168347697651
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: -2140950970259284549
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: -4068964910487194904
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: 5941047978479142458
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: 446064664397619093
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: -4216241095742789885
+    second: rig_CharRoot|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot|Take 001|BaseLay
+  - first:
+      74: 8045365531521605905
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: -3757033329219129914
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: -1173509248656073851
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: -8810614146764584045
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle
+  - first:
+      74: 712234240821444160
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle.001
+  - first:
+      74: 1910744384269380807
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controllers.0
+  - first:
+      74: 2581064132456109699
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|C
+  - first:
+      74: -2056674256637585314
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Contr
+  - first:
+      74: 5316980729001724482
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Oculu
+  - first:
+      74: -3044827498887433113
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: 7945495878117282926
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: -1216792115746793682
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: 4661358163841707945
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: -7390101194807525452
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: 1131182853446602862
+    second: rig_CharRoot|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot|Take 001|BaseLay
+  - first:
+      74: 287099699853414486
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|bip.001|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: -6794710604925340015
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|bip.002|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: 3276473609704336729
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|bip|Take 001|BaseLayer|rig_CharRoot|b
+  - first:
+      74: -3254116018224044437
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|C
+  - first:
+      74: -7522083232992644662
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Contr
+  - first:
+      74: 8553134931038387791
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Oculu
+  - first:
+      74: -1711665846934236804
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Controllers.0
+  - first:
+      74: -2110385886891957154
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Controllers|Controllers|ControllersAc
+  - first:
+      74: -6544254213516602463
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Oculus
+      Headse
+  - first:
+      74: -5372359100442896310
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Con
+  - first:
+      74: 4763666025818865979
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Control
+  - first:
+      74: -1761420589158350842
+    second: 'rig_CharRoot|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Oculus '
+  - first:
+      74: 5365938675990021298
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|rig_CharRoot.001|Take 001|BaseLayer|r
+  - first:
+      74: 3237128323635448682
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|rig_CharRoot.002|Take 001|BaseLayer|r
+  - first:
+      74: 5169763048055951557
+    second: rig_CharRoot|rig_CharRoot|rig_CharRoot|rig_CharRoot|Take 001|BaseLayer|rig_C
+  - first:
+      74: 6736327240546347132
+    second: Controllers|Controllers.001|Controllers.001|bip.001|Take 001|BaseLayer|Cont
+  - first:
+      74: -3825161335350386061
+    second: Controllers|Controllers.001|Controllers.001|bip.002|Take 001|BaseLayer|Cont
+  - first:
+      74: -9048494068929439118
+    second: Controllers|Controllers.001|Controllers.001|bip|Take 001|BaseLayer|Controll
+  - first:
+      74: 683030064077011199
+    second: Controllers|Controllers.001|Controllers.001|Controllers.001|Controllers.001
+  - first:
+      74: -143480966274615415
+    second: Controllers|Controllers.001|Controllers.001|Controllers.001|Controllers.002
+  - first:
+      74: 2713653376934230354
+    second: Controllers|Controllers.001|Controllers.001|Controllers.001|Controllers.003
+  - first:
+      74: -2220485772645928514
+    second: Controllers|Controllers.001|Controllers.001|Controllers|Controllers|Con
+  - first:
+      74: -1229555621784225570
+    second: Controllers|Controllers.001|Controllers.001|Controllers|Controllers|Control
+  - first:
+      74: 3076819199259883919
+    second: 'Controllers|Controllers.001|Controllers.001|Controllers|Controllers|Oculus '
+  - first:
+      74: 1047537091008876786
+    second: Controllers|Controllers.001|Controllers.001|Oculus Headset|Oculus Heads
+  - first:
+      74: -1383729866319305841
+    second: Controllers|Controllers.001|Controllers.001|Oculus Headset|Oculus Headset|C
+  - first:
+      74: 1860737645382293260
+    second: Controllers|Controllers.001|Controllers.001|Oculus Headset|Oculus Headset|O
+  - first:
+      74: 6554170476638193580
+    second: Controllers|Controllers.001|Controllers.001|rig_CharRoot.001|Take 001|BaseL
+  - first:
+      74: 3238187334417509611
+    second: Controllers|Controllers.001|Controllers.001|rig_CharRoot.002|Take 001|BaseL
+  - first:
+      74: 2277091319318503643
+    second: Controllers|Controllers.001|Controllers.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -3106388856951617878
+    second: Controllers|Controllers|Controllers|bip.001|Take 001|BaseLayer|Controllers|
+  - first:
+      74: 4779524744874933772
+    second: Controllers|Controllers|Controllers|bip.002|Take 001|BaseLayer|Controllers|
+  - first:
+      74: -4671998590656884962
+    second: Controllers|Controllers|Controllers|bip|Take 001|BaseLayer|Controllers|bip|
+  - first:
+      74: 1137585950962042099
+    second: Controllers|Controllers|Controllers|Controllers.001|Controllers.001|Con
+  - first:
+      74: -5739036951968506544
+    second: Controllers|Controllers|Controllers|Controllers.001|Controllers.001|Control
+  - first:
+      74: -2214165267403253495
+    second: 'Controllers|Controllers|Controllers|Controllers.001|Controllers.001|Oculus '
+  - first:
+      74: -6867778079186427030
+    second: Controllers|Controllers|Controllers|Controllers|Controllers|Controllers.001
+  - first:
+      74: -6608741590220666627
+    second: Controllers|Controllers|Controllers|Controllers|Controllers|ControllersActi
+  - first:
+      74: -8983267594577972147
+    second: Controllers|Controllers|Controllers|Controllers|Controllers|Oculus HeadsetA
+  - first:
+      74: 7988190606493625561
+    second: Controllers|Controllers|Controllers|Oculus Headset|Oculus Headset|Contr
+  - first:
+      74: -8710547757966577760
+    second: Controllers|Controllers|Controllers|Oculus Headset|Oculus Headset|Controlle
+  - first:
+      74: 2528083312466882937
+    second: Controllers|Controllers|Controllers|Oculus Headset|Oculus Headset|Oculus
+      He
+  - first:
+      74: -7946558857720900997
+    second: Controllers|Controllers|Controllers|rig_CharRoot.001|Take 001|BaseLayer|Con
+  - first:
+      74: 8970876361550751852
+    second: Controllers|Controllers|Controllers|rig_CharRoot.002|Take 001|BaseLayer|Con
+  - first:
+      74: 8266626443246776044
+    second: Controllers|Controllers|Controllers|rig_CharRoot|Take 001|BaseLayer|Control
+  - first:
+      74: -6716254269634661848
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: -7946594022606169694
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: -4679599658281057486
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: -2515812077579563683
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle
+  - first:
+      74: -4774544395825874348
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle.001
+  - first:
+      74: -5485026961532696392
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controllers.0
+  - first:
+      74: 3778387103347279454
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|C
+  - first:
+      74: -7474164713579304091
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Contr
+  - first:
+      74: -6835605211521290217
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Oculu
+  - first:
+      74: 6429569870435945787
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus Hea
+  - first:
+      74: 4695442358370086186
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus Hea.001
+  - first:
+      74: 2233618217895109539
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus Headset
+  - first:
+      74: -1313975905010916916
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Take 001|Bas
+  - first:
+      74: 3115477245183329648
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.002|Take 001|Bas
+  - first:
+      74: -2132776742316444767
+    second: Controllers|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot|Take 001|BaseLay
+  - first:
+      74: 8331090295518162324
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: 5470614071877209570
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: 4450368605526470619
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 3884353456333979028
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle
+  - first:
+      74: -6595269398964424328
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle.001
+  - first:
+      74: -3848569307815878721
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controllers.0
+  - first:
+      74: -670618189292686739
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|C
+  - first:
+      74: 1913094470152587949
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Contr
+  - first:
+      74: 3503214791063669181
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Oculu
+  - first:
+      74: -708281376858134511
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus Hea
+  - first:
+      74: -5128770423277342771
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus Hea.001
+  - first:
+      74: 2160512633610273076
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus Headset
+  - first:
+      74: 2667426926534211389
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.001|Take 001|Bas
+  - first:
+      74: -2774839450052534385
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Take 001|Bas
+  - first:
+      74: -6044889553988687072
+    second: Controllers|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot|Take 001|BaseLay
+  - first:
+      74: -4707640999895186192
+    second: Controllers|rig_CharRoot|rig_CharRoot|bip.001|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: 2482704375358111155
+    second: Controllers|rig_CharRoot|rig_CharRoot|bip.002|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: -1975624262992456363
+    second: Controllers|rig_CharRoot|rig_CharRoot|bip|Take 001|BaseLayer|rig_CharRoot|b
+  - first:
+      74: -4366025882689105472
+    second: Controllers|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|C
+  - first:
+      74: -5574258335925186672
+    second: Controllers|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Contr
+  - first:
+      74: 4052127228275109327
+    second: Controllers|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Oculu
+  - first:
+      74: -1315202685211826453
+    second: Controllers|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Controllers.0
+  - first:
+      74: -4989708089995817729
+    second: Controllers|rig_CharRoot|rig_CharRoot|Controllers|Controllers|ControllersAc
+  - first:
+      74: 6545756748656147343
+    second: Controllers|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Oculus
+      Headse
+  - first:
+      74: 1643517597229566674
+    second: Controllers|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Con
+  - first:
+      74: -8758775161249731004
+    second: Controllers|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Control
+  - first:
+      74: 1916683938038987064
+    second: 'Controllers|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Oculus '
+  - first:
+      74: -4648035406499996263
+    second: Controllers|rig_CharRoot|rig_CharRoot|rig_CharRoot.001|Take 001|BaseLayer|r
+  - first:
+      74: 7478256651462568345
+    second: Controllers|rig_CharRoot|rig_CharRoot|rig_CharRoot.002|Take 001|BaseLayer|r
+  - first:
+      74: 8628904538055488891
+    second: Controllers|rig_CharRoot|rig_CharRoot|rig_CharRoot|Take 001|BaseLayer|rig_C
+  - first:
+      74: -1937575948560844368
+    second: Controllers.001|Controllers.001|Controllers.001|bip.001|Take 001|BaseLayer|Cont
+  - first:
+      74: -5475276876151659769
+    second: Controllers.001|Controllers.001|Controllers.001|bip.002|Take 001|BaseLayer|Cont
+  - first:
+      74: 298798600091312182
+    second: Controllers.001|Controllers.001|Controllers.001|bip|Take 001|BaseLayer|Controll
+  - first:
+      74: 4010667225479211949
+    second: Controllers.001|Controllers.001|Controllers.001|Controllers.001|Controllers.001
+  - first:
+      74: -2251208223476783475
+    second: Controllers.001|Controllers.001|Controllers.001|Controllers.001|Controllers.002
+  - first:
+      74: -3530238288943344016
+    second: Controllers.001|Controllers.001|Controllers.001|Controllers.001|Controllers.003
+  - first:
+      74: 8336376993560386779
+    second: Controllers.001|Controllers.001|Controllers.001|Controllers|Controllers|Con
+  - first:
+      74: 7388546353815154595
+    second: Controllers.001|Controllers.001|Controllers.001|Controllers|Controllers|Control
+  - first:
+      74: 2872782730942318131
+    second: 'Controllers.001|Controllers.001|Controllers.001|Controllers|Controllers|Oculus '
+  - first:
+      74: 4601392492117475802
+    second: Controllers.001|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Heads
+  - first:
+      74: -6719803139682976398
+    second: Controllers.001|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Headset|C
+  - first:
+      74: 4949835362261432205
+    second: Controllers.001|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Headset|O
+  - first:
+      74: 6783964070071602965
+    second: Controllers.001|Controllers.001|Controllers.001|rig_CharRoot.001|Take
+      001|BaseL
+  - first:
+      74: -7754256792636797526
+    second: Controllers.001|Controllers.001|Controllers.001|rig_CharRoot.002|Take
+      001|BaseL
+  - first:
+      74: -6602506312985752046
+    second: Controllers.001|Controllers.001|Controllers.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: 7455742333207291489
+    second: Controllers.001|Controllers|Controllers|bip.001|Take 001|BaseLayer|Controllers|
+  - first:
+      74: -6282025240496913264
+    second: Controllers.001|Controllers|Controllers|bip.002|Take 001|BaseLayer|Controllers|
+  - first:
+      74: -4025643358067405668
+    second: Controllers.001|Controllers|Controllers|bip|Take 001|BaseLayer|Controllers|bip|
+  - first:
+      74: 7387378645869356850
+    second: Controllers.001|Controllers|Controllers|Controllers.001|Controllers.001|Con
+  - first:
+      74: 7980449677200435896
+    second: Controllers.001|Controllers|Controllers|Controllers.001|Controllers.001|Control
+  - first:
+      74: 6481637515339030293
+    second: 'Controllers.001|Controllers|Controllers|Controllers.001|Controllers.001|Oculus '
+  - first:
+      74: 8765270669617548276
+    second: Controllers.001|Controllers|Controllers|Controllers|Controllers|Controllers.001
+  - first:
+      74: -3275967165684550136
+    second: Controllers.001|Controllers|Controllers|Controllers|Controllers|ControllersActi
+  - first:
+      74: 3462109173476689370
+    second: Controllers.001|Controllers|Controllers|Controllers|Controllers|Oculus
+      HeadsetA
+  - first:
+      74: 7061876298879643133
+    second: Controllers.001|Controllers|Controllers|Oculus Headset|Oculus Headset|Contr
+  - first:
+      74: -3169438938040385997
+    second: Controllers.001|Controllers|Controllers|Oculus Headset|Oculus Headset|Controlle
+  - first:
+      74: 8505093943741611293
+    second: Controllers.001|Controllers|Controllers|Oculus Headset|Oculus Headset|Oculus
+      He
+  - first:
+      74: -9110642163426362091
+    second: Controllers.001|Controllers|Controllers|rig_CharRoot.001|Take 001|BaseLayer|Con
+  - first:
+      74: 602986900656831121
+    second: Controllers.001|Controllers|Controllers|rig_CharRoot.002|Take 001|BaseLayer|Con
+  - first:
+      74: -1128320838292998717
+    second: Controllers.001|Controllers|Controllers|rig_CharRoot|Take 001|BaseLayer|Control
+  - first:
+      74: 8754632750904617213
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: 339942421432133325
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: 3350740594263983513
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: -4636636099478875977
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle
+  - first:
+      74: -2303861430461715816
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle.001
+  - first:
+      74: -4661668591104960014
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controllers.0
+  - first:
+      74: 4267727370564915690
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|C
+  - first:
+      74: -564243209194514861
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Contr
+  - first:
+      74: 872677086016738386
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Oculu
+  - first:
+      74: -7909117334581340742
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: 3195360361953831137
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: 9075177381991207788
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: 5159810619598757675
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: -8694194239930400670
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: -9031621865588149949
+    second: Controllers.001|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot|Take 001|BaseLay
+  - first:
+      74: 8036105149628073667
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: 7214109277164492178
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: -1591568199066164459
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 2379157662845037323
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle
+  - first:
+      74: 3595991032804492427
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle.001
+  - first:
+      74: 3324457535405322086
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controllers.0
+  - first:
+      74: -5555595660907868727
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|C
+  - first:
+      74: -7674216638707849888
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Contr
+  - first:
+      74: 5338368875144246726
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Oculu
+  - first:
+      74: -4953613182784862352
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: 4874170312499308106
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: 2873247348379557258
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: 3180547937247948928
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: -6837159081121969950
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: -4626913100758070287
+    second: Controllers.001|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot|Take 001|BaseLay
+  - first:
+      74: 2578164011960132188
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|bip.001|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: 704534582925293839
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|bip.002|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: -5803357436368308697
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|bip|Take 001|BaseLayer|rig_CharRoot|b
+  - first:
+      74: 2599602987820819279
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|C
+  - first:
+      74: 3770599251446081777
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Contr
+  - first:
+      74: -6320523165918561934
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Oculu
+  - first:
+      74: -2571754396393471736
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Controllers.0
+  - first:
+      74: -342810013033985835
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Controllers|Controllers|ControllersAc
+  - first:
+      74: -2338196501030850295
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Oculus
+      Headse
+  - first:
+      74: 4326879021898329599
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Con
+  - first:
+      74: 5743951282316321825
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Control
+  - first:
+      74: -6676217823859736744
+    second: 'Controllers.001|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Oculus '
+  - first:
+      74: -3072575281599905562
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|rig_CharRoot.001|Take 001|BaseLayer|r
+  - first:
+      74: 4205708031870331396
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|rig_CharRoot.002|Take 001|BaseLayer|r
+  - first:
+      74: 1006297028433385907
+    second: Controllers.001|rig_CharRoot|rig_CharRoot|rig_CharRoot|Take 001|BaseLayer|rig_C
+  - first:
+      74: -7986491189851278094
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|bip.001|Take 001|BaseLayer|Cont
+  - first:
+      74: -1866905936827379714
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|bip.002|Take 001|BaseLayer|Cont
+  - first:
+      74: -7559814970508153984
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|bip|Take 001|BaseLayer|Controll
+  - first:
+      74: 6237845873190074099
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Controllers.001|Controllers.001
+  - first:
+      74: -8124552935815011303
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Controllers.001|Controllers.002
+  - first:
+      74: -162258497318056381
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Controllers.001|Controllers.003
+  - first:
+      74: 4029984208558066177
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Controllers|Controllers|Con
+  - first:
+      74: -5941387807976945165
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Controllers|Controllers|Control
+  - first:
+      74: -124959015808194211
+    second: 'rig_CharRoot.001|Controllers.001|Controllers.001|Controllers|Controllers|Oculus '
+  - first:
+      74: -2781622902101908238
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Heads
+  - first:
+      74: 9159943521610194409
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Headset|C
+  - first:
+      74: 6265637341807150865
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Headset|O
+  - first:
+      74: -4063411959835048485
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|rig_CharRoot.001|Take
+      001|BaseL
+  - first:
+      74: 7617074864666283331
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|rig_CharRoot.002|Take
+      001|BaseL
+  - first:
+      74: -6280878658744698318
+    second: rig_CharRoot.001|Controllers.001|Controllers.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -7193620399299504432
+    second: rig_CharRoot.001|Controllers|Controllers|bip.001|Take 001|BaseLayer|Controllers|
+  - first:
+      74: -6759653205680095350
+    second: rig_CharRoot.001|Controllers|Controllers|bip.002|Take 001|BaseLayer|Controllers|
+  - first:
+      74: 4341288471994624479
+    second: rig_CharRoot.001|Controllers|Controllers|bip|Take 001|BaseLayer|Controllers|bip|
+  - first:
+      74: 7200871442383798168
+    second: rig_CharRoot.001|Controllers|Controllers|Controllers.001|Controllers.001|Con
+  - first:
+      74: -6833672395352295244
+    second: rig_CharRoot.001|Controllers|Controllers|Controllers.001|Controllers.001|Control
+  - first:
+      74: -898197152984568803
+    second: 'rig_CharRoot.001|Controllers|Controllers|Controllers.001|Controllers.001|Oculus '
+  - first:
+      74: -4347952012408357108
+    second: rig_CharRoot.001|Controllers|Controllers|Controllers|Controllers|Controllers.001
+  - first:
+      74: -11395890097047986
+    second: rig_CharRoot.001|Controllers|Controllers|Controllers|Controllers|ControllersActi
+  - first:
+      74: 4854608380767697894
+    second: rig_CharRoot.001|Controllers|Controllers|Controllers|Controllers|Oculus
+      HeadsetA
+  - first:
+      74: -8340560366332169217
+    second: rig_CharRoot.001|Controllers|Controllers|Oculus Headset|Oculus Headset|Contr
+  - first:
+      74: -5983633900719363243
+    second: rig_CharRoot.001|Controllers|Controllers|Oculus Headset|Oculus Headset|Controlle
+  - first:
+      74: -5755799787005042235
+    second: rig_CharRoot.001|Controllers|Controllers|Oculus Headset|Oculus Headset|Oculus
+      He
+  - first:
+      74: 4625147125751393972
+    second: rig_CharRoot.001|Controllers|Controllers|rig_CharRoot.001|Take 001|BaseLayer|Con
+  - first:
+      74: 1815811676315363905
+    second: rig_CharRoot.001|Controllers|Controllers|rig_CharRoot.002|Take 001|BaseLayer|Con
+  - first:
+      74: 4787758907572042209
+    second: rig_CharRoot.001|Controllers|Controllers|rig_CharRoot|Take 001|BaseLayer|Control
+  - first:
+      74: 7776180832697671281
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: 1716379070928666545
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: -2636954641573861316
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 8417960202522129383
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle
+  - first:
+      74: 4248679371536115913
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle.001
+  - first:
+      74: -6770717546627603461
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controllers.0
+  - first:
+      74: 7453564304061403827
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|C
+  - first:
+      74: 5745167965564410303
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Contr
+  - first:
+      74: 1406885112397729497
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Oculu
+  - first:
+      74: 1994546783459600822
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: -8664574971542038593
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: -1966184225943388438
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: -6872027392793406777
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: -2953319648929678922
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: -3824320553350322671
+    second: rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot|Take
+      001|BaseLay
+  - first:
+      74: 738892680981853405
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: -2451859544849807802
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: 1450166336376707012
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 4157702799136127463
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle
+  - first:
+      74: -8589686732866213666
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle.001
+  - first:
+      74: -2502031219537475951
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controllers.0
+  - first:
+      74: -7379149338009577171
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|C
+  - first:
+      74: 1587124605331734455
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Contr
+  - first:
+      74: -4645807129509237744
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Oculu
+  - first:
+      74: 8010498664182057027
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: 2561565970081732958
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: 2755928640925290361
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: -5772020316799194762
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: 3591425307004324082
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: -4969678220313932330
+    second: rig_CharRoot.001|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot|Take
+      001|BaseLay
+  - first:
+      74: -5031111066462529299
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|bip.001|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: -5637433963572185831
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|bip.002|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: -5244242877768356864
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|bip|Take 001|BaseLayer|rig_CharRoot|b
+  - first:
+      74: 4984092098038885983
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|C
+  - first:
+      74: 2687740921107319967
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Contr
+  - first:
+      74: 7965045765657956750
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Oculu
+  - first:
+      74: -6163368250952257182
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Controllers.0
+  - first:
+      74: 5272797868540678969
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Controllers|Controllers|ControllersAc
+  - first:
+      74: -8226149587558356236
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Oculus
+      Headse
+  - first:
+      74: 257001603931025078
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Con
+  - first:
+      74: -163510226334450500
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Control
+  - first:
+      74: 7921271565711905208
+    second: 'rig_CharRoot.001|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Oculus '
+  - first:
+      74: -8993026829927245312
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|rig_CharRoot.001|Take 001|BaseLayer|r
+  - first:
+      74: -1744508684939213438
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|rig_CharRoot.002|Take 001|BaseLayer|r
+  - first:
+      74: 5074917797165522398
+    second: rig_CharRoot.001|rig_CharRoot|rig_CharRoot|rig_CharRoot|Take 001|BaseLayer|rig_C
+  - first:
+      74: 708544975236457412
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|bip.001|Take 001|BaseLayer|Cont
+  - first:
+      74: 880731179806534911
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|bip.002|Take 001|BaseLayer|Cont
+  - first:
+      74: -9217233108247410379
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|bip|Take 001|BaseLayer|Controll
+  - first:
+      74: 7694511284818631461
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Controllers.001|Controllers.001
+  - first:
+      74: 4319594880633300589
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Controllers.001|Controllers.002
+  - first:
+      74: 2311031212814808345
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Controllers.001|Controllers.003
+  - first:
+      74: 6788974497457247671
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Controllers|Controllers|Con
+  - first:
+      74: -3817701303346791902
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Controllers|Controllers|Control
+  - first:
+      74: -7846939717730552078
+    second: 'rig_CharRoot.002|Controllers.001|Controllers.001|Controllers|Controllers|Oculus '
+  - first:
+      74: -2948908583286378798
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Heads
+  - first:
+      74: 4585193874622466058
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Headset|C
+  - first:
+      74: -3167183775969865862
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|Oculus Headset|Oculus
+      Headset|O
+  - first:
+      74: 2078274848456181372
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|rig_CharRoot.001|Take
+      001|BaseL
+  - first:
+      74: 4850511308338609206
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|rig_CharRoot.002|Take
+      001|BaseL
+  - first:
+      74: 2158442210534772643
+    second: rig_CharRoot.002|Controllers.001|Controllers.001|rig_CharRoot|Take 001|BaseLayer
+  - first:
+      74: -7930991030965545034
+    second: rig_CharRoot.002|Controllers|Controllers|bip.001|Take 001|BaseLayer|Controllers|
+  - first:
+      74: -2493832943140296316
+    second: rig_CharRoot.002|Controllers|Controllers|bip.002|Take 001|BaseLayer|Controllers|
+  - first:
+      74: 8980342191344100668
+    second: rig_CharRoot.002|Controllers|Controllers|bip|Take 001|BaseLayer|Controllers|bip|
+  - first:
+      74: -834579661054946185
+    second: rig_CharRoot.002|Controllers|Controllers|Controllers.001|Controllers.001|Con
+  - first:
+      74: -3667057239824475589
+    second: rig_CharRoot.002|Controllers|Controllers|Controllers.001|Controllers.001|Control
+  - first:
+      74: -8253370280516611421
+    second: 'rig_CharRoot.002|Controllers|Controllers|Controllers.001|Controllers.001|Oculus '
+  - first:
+      74: -456674680859192365
+    second: rig_CharRoot.002|Controllers|Controllers|Controllers|Controllers|Controllers.001
+  - first:
+      74: -5942501763206163643
+    second: rig_CharRoot.002|Controllers|Controllers|Controllers|Controllers|ControllersActi
+  - first:
+      74: 9052564271034247039
+    second: rig_CharRoot.002|Controllers|Controllers|Controllers|Controllers|Oculus
+      HeadsetA
+  - first:
+      74: -7928511980344698556
+    second: rig_CharRoot.002|Controllers|Controllers|Oculus Headset|Oculus Headset|Contr
+  - first:
+      74: -8975640776718587623
+    second: rig_CharRoot.002|Controllers|Controllers|Oculus Headset|Oculus Headset|Controlle
+  - first:
+      74: 6136146898004415031
+    second: rig_CharRoot.002|Controllers|Controllers|Oculus Headset|Oculus Headset|Oculus
+      He
+  - first:
+      74: 1812400555421962539
+    second: rig_CharRoot.002|Controllers|Controllers|rig_CharRoot.001|Take 001|BaseLayer|Con
+  - first:
+      74: 2181005345264458551
+    second: rig_CharRoot.002|Controllers|Controllers|rig_CharRoot.002|Take 001|BaseLayer|Con
+  - first:
+      74: -1244914352001899279
+    second: rig_CharRoot.002|Controllers|Controllers|rig_CharRoot|Take 001|BaseLayer|Control
+  - first:
+      74: 5917037521787976919
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: 2146284481066380029
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: 5347491583359801880
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 8805386156183740015
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle
+  - first:
+      74: 4617409145909033916
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controlle.001
+  - first:
+      74: -8814897279351171257
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Controllers.001|Controllers.0
+  - first:
+      74: 4480617015863221445
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|C
+  - first:
+      74: 3857726496932440134
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Contr
+  - first:
+      74: 2339529388466741145
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Controllers|Controllers|Oculu
+  - first:
+      74: 8887809216088458523
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: 2661298316991288557
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: -2517469732796547334
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: -7724646182915027452
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: -1319904865027233234
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: -8012447380021035914
+    second: rig_CharRoot.002|rig_CharRoot.001|rig_CharRoot.001|rig_CharRoot|Take
+      001|BaseLay
+  - first:
+      74: -5887535293142970909
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|bip.001|Take 001|BaseLayer|ri
+  - first:
+      74: 8143391389626182146
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|bip.002|Take 001|BaseLayer|ri
+  - first:
+      74: 1078146582587230665
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|bip|Take 001|BaseLayer|rig_Ch
+  - first:
+      74: 7812586891296453111
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle
+  - first:
+      74: 4458192260143225081
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controlle.001
+  - first:
+      74: -4624773610634777528
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Controllers.001|Controllers.0
+  - first:
+      74: -2187979262976840445
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|C
+  - first:
+      74: -4597927907615444568
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Contr
+  - first:
+      74: 5020518902247010961
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Controllers|Controllers|Oculu
+  - first:
+      74: -3397909088101387430
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea
+  - first:
+      74: -3786384752033377243
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Hea.001
+  - first:
+      74: -2827603705690816376
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Oculus Headset|Oculus
+      Headset
+  - first:
+      74: 7829038820326763567
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.001|Take
+      001|Bas
+  - first:
+      74: -1538684578361405324
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|Take
+      001|Bas
+  - first:
+      74: 7449658760831857013
+    second: rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot.002|rig_CharRoot|Take
+      001|BaseLay
+  - first:
+      74: -4522165976667749421
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|bip.001|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: 4317804291108271176
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|bip.002|Take 001|BaseLayer|rig_CharRo
+  - first:
+      74: -9118194262100697331
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|bip|Take 001|BaseLayer|rig_CharRoot|b
+  - first:
+      74: -267979788006348085
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|C
+  - first:
+      74: 8796117595828640278
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Contr
+  - first:
+      74: 3629667129626080747
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Controllers.001|Controllers.001|Oculu
+  - first:
+      74: 2034447346072975083
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Controllers.0
+  - first:
+      74: -7862363838132258502
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Controllers|Controllers|ControllersAc
+  - first:
+      74: -2275081218338381913
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Controllers|Controllers|Oculus
+      Headse
+  - first:
+      74: -1347134306797732140
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Con
+  - first:
+      74: -8211214664119879309
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Control
+  - first:
+      74: 8435119114166834891
+    second: 'rig_CharRoot.002|rig_CharRoot|rig_CharRoot|Oculus Headset|Oculus Headset|Oculus '
+  - first:
+      74: -6521409389745973729
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|rig_CharRoot.001|Take 001|BaseLayer|r
+  - first:
+      74: 8518765068612189604
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|rig_CharRoot.002|Take 001|BaseLayer|r
+  - first:
+      74: 3863887956101967537
+    second: rig_CharRoot.002|rig_CharRoot|rig_CharRoot|rig_CharRoot|Take 001|BaseLayer|rig_C
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "Ca\xF1onaco"
+    second: {fileID: 2100000, guid: 13cfa2949ff3d9344aa4def4bd428b06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Controllers
+    second: {fileID: 2100000, guid: 4d2aff5e154a384468aa7f63d2aa19ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Soporte
+    second: {fileID: 2100000, guid: 031760a8ac35f4f4abf3d03b10928996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zona_jugador
+    second: {fileID: 2100000, guid: 56ceac4ac44fffb42adb5d9ff7f2ed2c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

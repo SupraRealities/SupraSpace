@@ -1,0 +1,170 @@
+{
+    "name": "INputs",
+    "maps": [
+        {
+            "name": "Teclado",
+            "id": "61b1a8c3-9596-40a7-8ac3-fd451ef1708e",
+            "actions": [
+                {
+                    "name": "Disparo",
+                    "type": "Value",
+                    "id": "e93d3f33-7b25-416c-9182-2fc864e0aa23",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Reset",
+                    "type": "Button",
+                    "id": "83c4af51-b813-43db-9295-cb62854d19fb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9f7a76f7-dec8-4b53-80d1-30bef636b7f3",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d271b8b0-3e00-492e-8d41-251231e3d9ee",
+                    "path": "<XRController>{RightHand}/thumbstickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reset",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "HANDS",
+            "id": "0c9da693-0d9b-4f5a-b3a1-be8d58d435d9",
+            "actions": [
+                {
+                    "name": "Left",
+                    "type": "Value",
+                    "id": "aa7a9083-294a-4e7f-96c6-5171ea68a53f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Right",
+                    "type": "Value",
+                    "id": "69b74883-a690-4f73-ada1-7ad5ea62339c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6e935e6b-9114-41be-aab4-2df38cc38156",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d2edd8f-7c88-4352-8f02-3933da365845",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MandoArduino",
+            "id": "c5efe8bd-4a5b-4562-a6c8-fe6d78a061e0",
+            "actions": [
+                {
+                    "name": "Disparo",
+                    "type": "Button",
+                    "id": "ce7a7f7a-7a1a-445e-891e-6dace7c8e76e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotacion X",
+                    "type": "Value",
+                    "id": "58918bfe-30d2-47bb-813a-82030edbf99f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation Y",
+                    "type": "Value",
+                    "id": "ff273f80-a69c-48ce-b27f-302fede5eac7",
+                    "expectedControlType": "Integer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dea2a5c1-56af-4bc8-91b3-9ba6ffce8b6b",
+                    "path": "<Joystick>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Disparo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9bfe68d3-a34e-4143-a771-04c404d4e365",
+                    "path": "<Joystick>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotacion X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8df4cc23-f466-4f3c-bb63-3953918fcc2e",
+                    "path": "<HID::Arduino LLC Arduino Leonardo>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotation Y",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

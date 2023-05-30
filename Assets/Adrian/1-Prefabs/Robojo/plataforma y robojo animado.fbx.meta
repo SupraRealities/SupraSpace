@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: f15376e9a77578d4db0439eee73ad74f
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 6340774820868862320
+    second: "C\xEDrculo|C\xEDrculo.001Action"
+  - first:
+      74: 1945198754606100515
+    second: "C\xEDrculo|C\xEDrculo.002Action"
+  - first:
+      74: -2856647341883157200
+    second: "C\xEDrculo|C\xEDrculoAction"
+  - first:
+      74: 8489918958151995281
+    second: "C\xEDrculo|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics"
+  - first:
+      74: 8927138095235284605
+    second: "C\xEDrculo|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.002"
+  - first:
+      74: -6611556819044534728
+    second: "C\xEDrculo|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.003"
+  - first:
+      74: -2343213202655381416
+    second: "C\xEDrculo|RobojoModeloAction"
+  - first:
+      74: -8610328335089346942
+    second: "C\xEDrculo.002|C\xEDrculo.001Action"
+  - first:
+      74: -1243883720985028070
+    second: "C\xEDrculo.002|C\xEDrculo.002Action"
+  - first:
+      74: 7077629921394399299
+    second: "C\xEDrculo.002|C\xEDrculoAction"
+  - first:
+      74: 1207320099639654830
+    second: "C\xEDrculo.002|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics"
+  - first:
+      74: -5097693611239901638
+    second: "C\xEDrculo.002|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.002"
+  - first:
+      74: 3152195150819310635
+    second: "C\xEDrculo.002|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.003"
+  - first:
+      74: -6844412257411261467
+    second: "C\xEDrculo.002|RobojoModeloAction"
+  - first:
+      74: 5541602591466283167
+    second: "RigRobojo|C\xEDrculo.001Action"
+  - first:
+      74: -1948394589975331140
+    second: "RigRobojo|C\xEDrculo.002Action"
+  - first:
+      74: 425968190986367756
+    second: "RigRobojo|C\xEDrculoAction"
+  - first:
+      74: -7916959208827377855
+    second: RigRobojo|RigRobojoAction.001
+  - first:
+      74: -1055204556921383222
+    second: RigRobojo|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics
+  - first:
+      74: 3634859796148539015
+    second: RigRobojo|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.002
+  - first:
+      74: -8579669606499911705
+    second: RigRobojo|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.003
+  - first:
+      74: -2302833201264049418
+    second: RigRobojo|RobojoModeloAction
+  - first:
+      74: 5884801004537803376
+    second: "C\xEDrculo.001|C\xEDrculo.001Action"
+  - first:
+      74: -1363499335573059922
+    second: "C\xEDrculo.001|C\xEDrculo.002Action"
+  - first:
+      74: 7058720458129899002
+    second: "C\xEDrculo.001|C\xEDrculoAction"
+  - first:
+      74: -4223069179899402360
+    second: "C\xEDrculo.001|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics"
+  - first:
+      74: 8196038222780208793
+    second: "C\xEDrculo.001|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.002"
+  - first:
+      74: -9179556879363942228
+    second: "C\xEDrculo.001|RigRobojo|RigRobojo|bakephysics|RigRobojo|bakephysics.003"
+  - first:
+      74: 215222562545303107
+    second: "C\xEDrculo.001|RobojoModeloAction"
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 749ee05440cf1c04d9d80771b35eda9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 5ddde4ea44375a14b995b8d39ac16681, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: e1589379aef0f2848ad4a6a5e589b6e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "RobojoAra\xF1a.003"
+    second: {fileID: 2100000, guid: c6cf273949680154a903b9f0f5b1297f, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
