@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Adrian/3-Scenes/PrePago.unity
     guid: f022699259495d043acdf2e40cd12cd5
   - enabled: 1
     path: Assets/Adrian/3-Scenes/PreGame.unity
     guid: bef4b10a102a0f746b0d81a6cacd33cd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Adrian/3-Scenes/Game.unity
     guid: a8afb5eb44d8bc744b1ce48468f961c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Adrian/3-Scenes/PosGame.unity
     guid: fb19084c34351e94e8c7a8e849c2749d
   m_configObjects:
