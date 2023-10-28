@@ -117,7 +117,6 @@ public class Cannon : MonoBehaviour
         //DISPARO
         PooledObject balaPequenaInstance = balasPequenasPool.GetObject();
         balaPequenaInstance.transform.SetPositionAndRotation(posicionDisparo.transform.position, posicionDisparo.transform.rotation);
-        balaPequenaInstance.transform.localScale = new Vector3(4, 4, 4);
         puedoDisparar = false;
 
         //VFX
