@@ -1,31 +1,32 @@
+using SupraRealities.SupraSpace.Utilities.ObjectPoolPattern;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class naveCaza : MonoBehaviour
+public class naveCaza : PooledObject
 {
     public enum naveStates { Acercandose, Attack, Die, Floating, PreGame }
     public naveStates naveState;
 
     [Header("Referencias")]
 
-    [SerializeField] Transform posDisparo;
-    [SerializeField] Transform posDisparo2;
-    [SerializeField] GameObject bala;
-    [SerializeField] GameObject explosionVFX;
-    [SerializeField] GameObject vfxDisparo;
-        
+    [SerializeField] private Transform posDisparo;
+    [SerializeField] private Transform posDisparo2;
+    [SerializeField] private GameObject bala;
+    [SerializeField] private GameObject explosionVFX;
+    [SerializeField] private GameObject vfxDisparo;
+    [SerializeField] private PooledEnemy thisEnemy;        
 
     [Header("Parametros")]
     public int health;
-    [SerializeField] float speedRotation;
-    [SerializeField] float cadenciaDisparo;
-    [SerializeField] float startDelayDisparo;
-    [SerializeField] float speedMovement;
-    [SerializeField] float distanciaPlayer;
-    [SerializeField] int puntosDados;
+    [SerializeField] private float speedRotation;
+    [SerializeField] private float cadenciaDisparo;
+    [SerializeField] private float startDelayDisparo;
+    [SerializeField] private float speedMovement;
+    [SerializeField] private float distanciaPlayer;
+    [SerializeField] private int puntosDados;
      
-   [SerializeField] private Transform player;
+    [SerializeField] private Transform player;
 
     private bool puedoDisparar;
     private bool puedoDispararIzq = true;
@@ -128,7 +129,6 @@ public class naveCaza : MonoBehaviour
         canRotate = false;
         puedoDisparar = false;
         if (auxMuerte) StartCoroutine(muerte());
-        Destroy(gameObject, 1f);
     }
 
     void Moving()
@@ -216,8 +216,8 @@ public class naveCaza : MonoBehaviour
         auxMuerte = false;
         GameObject vfxGo = Instantiate(explosionVFX, transform.position, transform.rotation);
 
-        Destroy(gameObject, 0.1f);
-        yield return null;
+        yield return new WaitForSeconds(0.1f);
+        thisEnemy.Recycle();
     }
 
     void OnTriggerEnter(Collider other)

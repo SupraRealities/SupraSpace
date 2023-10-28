@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Fase 7
   m_EditorClassIdentifier: 
   list:
-  - {fileID: 895989737707400268, guid: ec49dd217d618be4aaef92a981e34d5c, type: 3}
-  - {fileID: 96138634446718045, guid: 123a84f3993f0b444b4e2481c6170f4d, type: 3}
-  - {fileID: 3579133926264593537, guid: f3f64a2db5fe8e0498c0ac0647d73537, type: 3}
-  - {fileID: 6654592440354825153, guid: be02d6f94ae7d6b47b6c5cf769eac365, type: 3}
-  myName: Fase 7
+  - {fileID: 1829348998606486599, guid: ec49dd217d618be4aaef92a981e34d5c, type: 3}
+  - {fileID: 5857395782128025599, guid: 123a84f3993f0b444b4e2481c6170f4d, type: 3}
+  - {fileID: 5878590156201572573, guid: f3f64a2db5fe8e0498c0ac0647d73537, type: 3}
+  - {fileID: -7860903282565621154, guid: be02d6f94ae7d6b47b6c5cf769eac365, type: 3}
+  stageName: Stage 07
   tiempoSiguienteFase: 15

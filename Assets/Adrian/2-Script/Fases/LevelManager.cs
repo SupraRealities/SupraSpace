@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -7,64 +5,66 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public static int puntos;
+
     [Header("Fases")]
-    Fases fase;
+    private StageData currentStage;
+    public StageData[] stages;
 
-    public Fases[] fases;
-
-    [SerializeField] int faseCounter;
+    [SerializeField] private int currentStageIndex;
 
     [Header("Spawn")]
-    public SpawnNaves spawn;
+    public EnemiesSpawner enemiesSpawner;
 
-    [SerializeField]float timer;
+    [SerializeField] private float currentStageTime;
 
     private PlayerHP playerHealth;
 
     [SerializeField] private Text puntosText;
-     void Start()
+    private void Start()
     {
         puntos = 0;
-        fase = fases[0];
-        faseCounter = 0;
-        timer = 0;
+        currentStage = stages[0];
+        currentStageIndex = 0;
+        currentStageTime = 0;
         playerHealth = GameObject.FindGameObjectWithTag("canon").GetComponent<PlayerHP>();
 
-        spawn.list = fase.list;
-    }
-     void Update()
-    {
-        timer += Time.deltaTime;
-        fase = fases[faseCounter];       
-      
-        if (fase.tiempoSiguienteFase > timer)
-        {
-            
-        }
-        else
-        {            
-           checkFase();
-        }
-
-        puntosText.text = puntos.ToString();
-        //Debug.Log(fase.myName);
-        //Debug.Log(puntos);
+        enemiesSpawner.Enemies = currentStage.list;
     }
 
-    void checkFase()
+    private void Update()
     {
-        timer = 0;
-        if (faseCounter < fases.Length - 1)
+        ManageStagesFlow();
+        RefreshScoreUI();
+    }
+
+    private void ManageStagesFlow()
+    {
+        currentStage = stages[currentStageIndex];
+        bool currentStageTimeHasPassed = currentStageTime >= currentStage.tiempoSiguienteFase;
+        if (currentStageTimeHasPassed)
         {
-            faseCounter++;
-        spawn.list = fase.list ;
+            GoToNextStage();
+        }
+        currentStageTime += Time.deltaTime;
+    }
+
+    private void GoToNextStage()
+    {
+        currentStageTime = 0;
+        if (currentStageIndex < stages.Length - 1)
+        {
+            currentStageIndex++;
+            enemiesSpawner.Enemies = currentStage.list;
         }
         else
         {
             SceneManager.LoadScene("PosGame");
             Debug.Log("Se acabó");
         }
-        
-      
-    }    
+    }
+
+    private void RefreshScoreUI()
+    {
+        puntosText.text = puntos.ToString();
+    }
 }

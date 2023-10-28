@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 4824139663839169898}
   - component: {fileID: 6723195718572125357}
   - component: {fileID: 4174767334479110071}
-  - component: {fileID: -2146729000503199868}
   m_Layer: 0
   m_Name: balafuerte
   m_TagString: balafuerte
@@ -111,8 +110,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0aac920c670db540bcabb24937b6d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadBala: 30
   vfxImpact: {fileID: 8438551950538890656, guid: f228d0f25b13a17488f7bcab458b4f33, type: 3}
+  velocidadBala: 30
+  tiempoDeVida: 2
 --- !u!54 &6723195718572125357
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -225,15 +225,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2146729000503199868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6107604188119970905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 512b967880655c84faafe1934f923c81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

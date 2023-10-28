@@ -638,6 +638,7 @@ GameObject:
   - component: {fileID: 6274090690216016251}
   - component: {fileID: -7860903282565621154}
   - component: {fileID: 4154525282101385108}
+  - component: {fileID: 4920730959559012922}
   m_Layer: 7
   m_Name: Nave T
   m_TagString: Untagged
@@ -688,6 +689,7 @@ MonoBehaviour:
   tpVFX: {fileID: 4517818377710125762, guid: 990c047d3f920054c80287da91ad78ba, type: 3}
   posDisparo: {fileID: 8171140501880802007}
   zonatp: {fileID: 3341394124461802316}
+  thisEnemy: {fileID: 4920730959559012922}
   health: 1
   speedMovement: 50
   speedRotation: 20
@@ -709,6 +711,18 @@ CapsuleCollider:
   m_Height: 21.77
   m_Direction: 1
   m_Center: {x: 0.34499645, y: -3.9185572, z: 0}
+--- !u!114 &4920730959559012922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6654592440354825153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ec45b5a0f451744835bdbb18543d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9208025885995201492
 GameObject:
   m_ObjectHideFlags: 0

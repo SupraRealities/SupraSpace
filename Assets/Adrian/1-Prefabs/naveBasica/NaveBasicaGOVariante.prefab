@@ -103,6 +103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 96138634446718044}
+  - component: {fileID: 5857395782128025599}
   m_Layer: 7
   m_Name: NaveBasicaGOVariante
   m_TagString: Untagged
@@ -126,6 +127,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5857395782128025599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96138634446718045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ec45b5a0f451744835bdbb18543d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2030889199728535218
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +734,7 @@ MonoBehaviour:
   bala: {fileID: 3560786838589024166, guid: 3571d21b316688846bd4cac80443e338, type: 3}
   explosionVFX: {fileID: 118304, guid: 36434e6052daf1b4da5e275207f83df6, type: 3}
   vfxDisparo: {fileID: 4027150067577807888, guid: 2556e5a360912cc4ea0b96302efb5bc9, type: 3}
+  thisEnemy: {fileID: 5857395782128025599}
   myAnim: {fileID: 4280272568537913555}
   health: 3
   speedRotation: 2.5

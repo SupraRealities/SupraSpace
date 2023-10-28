@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.024729041, g: 0.017210318, b: 0.018645452, a: 1}
+  m_IndirectSpecularColor: {r: 0.025227133, g: 0.016516823, b: 0.018643945, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1629,7 +1629,7 @@ GameObject:
   - component: {fileID: 929088614}
   - component: {fileID: 929088615}
   m_Layer: 0
-  m_Name: SpawnNaves
+  m_Name: EnemiesSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1642,12 +1642,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929088613}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.716027, y: -23, z: 121.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: -21.842333, z: 140.74219}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1042932834}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &929088615
 MonoBehaviour:
@@ -1661,12 +1661,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a325fef0d6088344c81b088039eaa3b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  list:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  cadenciaSpawn: 2
+  enemies: []
+  spawnRate: 2
 --- !u!1 &932473046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,37 +1787,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &1042932833
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1042932834}
-  m_Layer: 0
-  m_Name: NAVES
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1042932834
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042932833}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7160273, y: 1.157668, z: 19.042198}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 929088614}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1048070204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f15376e9a77578d4db0439eee73ad74f, type: 3}
@@ -1867,10 +1832,10 @@ MonoBehaviour:
   inputActionJoystickY: {fileID: -3829557572548857298, guid: 7febcebe21c75724d99670639747876e, type: 3}
   posicionDisparo: {fileID: 2080650059}
   mandoDer: {fileID: 1161338421}
-  balafuerte: {fileID: 6107604188119970905, guid: 1264b24e6359c8241a858370b46a65fc, type: 3}
+  balafuerte: {fileID: 4824139663839169898, guid: 1264b24e6359c8241a858370b46a65fc, type: 3}
   cadenciaFuerte: 1.8
   vfxDisparoFuerte: {fileID: 4027150067577807888, guid: 2556e5a360912cc4ea0b96302efb5bc9, type: 3}
-  balafloja: {fileID: 3560786838589024166, guid: db6a852a1e79c9b40b53aaab97221dab, type: 3}
+  balafloja: {fileID: 4824139663839169898, guid: 9ab4f383ebd8c8948b30923c6d58e170, type: 3}
   cadenciaFloja: 0.15
   vfxDisparoFlojo: {fileID: 4027150067577807888, guid: 2556e5a360912cc4ea0b96302efb5bc9, type: 3}
   IzqODer: 0
@@ -2390,6 +2355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f779539ac75acb45ad1a9a4731f4a5c, type: 3}
+--- !u!1 &1306632818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f779539ac75acb45ad1a9a4731f4a5c, type: 3}
+  m_PrefabInstance: {fileID: 1306632817}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1336199683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,8 +2458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73975ad753fb52b44a5ea4096942e765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fases:
-  - {fileID: 11400000, guid: 857cd0e4615751c43b1dd20b51038b4e, type: 2}
+  stages:
   - {fileID: 11400000, guid: 857cd0e4615751c43b1dd20b51038b4e, type: 2}
   - {fileID: 11400000, guid: 08d42f6296b9ea64faf96c9761eda2a9, type: 2}
   - {fileID: 11400000, guid: 949638a126ed62041bad136c9311f085, type: 2}
@@ -2498,9 +2467,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 050fc5290b3e04244a3a3f344688a7c4, type: 2}
   - {fileID: 11400000, guid: 3ae9346a7d42d44458470f5c43b0381a, type: 2}
   - {fileID: 11400000, guid: f27d01a5a78a3fc4db86f232d53ac384, type: 2}
-  faseCounter: 0
-  spawn: {fileID: 929088615}
-  timer: 0
+  currentStageIndex: 0
+  enemiesSpawner: {fileID: 929088615}
+  currentStageTime: 0
   puntosText: {fileID: 801044287}
 --- !u!4 &1803292816
 Transform:
@@ -2628,14 +2597,15 @@ MonoBehaviour:
   player: {fileID: 80444057}
   playerHead: {fileID: 2122871827}
   inputActionReset: {fileID: 7934704116491157015, guid: 7febcebe21c75724d99670639747876e, type: 3}
-  naveInicial: {fileID: 0}
+  pressingTimeRequiredToResetView: 1.5
+  naveInicial: {fileID: 1306632818}
   escenaState: 1
-  playerScript: {fileID: 80444064}
-  tiempoPostGame: 0
+  playerHP: {fileID: 80444064}
+  delayBeforeLoadPrePago: 0
   fundidoAnim: {fileID: 161342434}
   cartelResetVista: {fileID: 0}
   cartelDisparaNave: {fileID: 0}
-  puntosFinal: {fileID: 0}
+  totalScoreText: {fileID: 0}
 --- !u!114 &1803292819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3407,7 +3377,7 @@ GameObject:
   - component: {fileID: 919132147879850432}
   - component: {fileID: 919132147879850431}
   m_Layer: 0
-  m_Name: "ca\xF1onaco"
+  m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

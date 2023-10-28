@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
@@ -8,110 +7,154 @@ using UnityEngine.SceneManagement;
 
 public class SceneManage : MonoBehaviour
 {
-    [Header("ResetVista")]
-    [SerializeField] Transform resetTransform;
-    [SerializeField] GameObject player;
-    [SerializeField] Camera playerHead;
-    [SerializeField] InputActionReference inputActionReset;
-    private float timer;
+    [Header("View's reset")]
+    [SerializeField] private Transform resetTransform;
+    [SerializeField] private GameObject player;
+    [SerializeField] private Camera playerHead;
+    [SerializeField] private InputActionReference inputActionReset;
+    [SerializeField] private float pressingTimeRequiredToResetView = 1.5f;
+    private float currentPassedTimePressingReset;
 
     [Space]
 
     [Header("Controlador de escenas")]
     [SerializeField] private GameObject naveInicial;
    
-    public enum escenastates { Pre, Game, Post }
-    public escenastates escenaState;
+    public enum SceneStates { Pre, Game, Post }
+    public SceneStates escenaState;
+
     [Space]
-    [SerializeField] private PlayerHP playerScript;
+    [SerializeField] private PlayerHP playerHP;
+
     [Space]
-    [SerializeField] private float tiempoPostGame;
+    [SerializeField] private float delayBeforeLoadPrePago;
     [SerializeField] private Animator fundidoAnim;
 
     [Space]
+    [SerializeField] private GameObject cartelResetVista;
+    [SerializeField] private GameObject cartelDisparaNave;
 
-    [SerializeField] GameObject cartelResetVista;
-    [SerializeField] GameObject cartelDisparaNave;
+    [SerializeField] private Text totalScoreText;
 
-
-    [SerializeField] Text puntosFinal;
-
-    private bool auxbool = true;
+    private bool resultsScreenAlreadyLoading;
     
-     void Start()
+    private void Start()
     {
-        if(playerScript != null)playerScript = playerScript.GetComponent<PlayerHP>();
-        timer = 0;
+        if (playerHP != null)
+        {
+            playerHP = playerHP.GetComponent<PlayerHP>();
+        }
+        currentPassedTimePressingReset = 0;
 
-        if (escenaState == escenastates.Post)
+        if (escenaState == SceneStates.Post)
         {
             if (Arduino.sp.IsOpen)
             {
                 Arduino.sp.WriteLine("1");
             }
         }
-              
     }
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
         switch (escenaState)
         {
-             case escenastates.Pre:
-                PreGame();
+             case SceneStates.Pre:
+                PreGameUpdate();
                 break;
-            case escenastates.Game:
-                inGame();
+            case SceneStates.Game:
+                InGameUpdate();
                 break;
-            case escenastates.Post:
-                if(auxbool) StartCoroutine(DelayPostGame());
+            case SceneStates.Post:
+                PostGameUpdate();
                 break;
         }
 
+        ManageViewportReset();
+    }
 
+    private void PreGameUpdate()
+    {
+        if (naveInicial != null)
+        {
+            naveInicial.GetComponent<NaveBasica>().naveState = NaveBasica.naveStates.PreGame;
+
+            if (naveInicial.GetComponent<NaveBasica>().health <= 0)
+            {
+                StartCoroutine(FadeOut());
+            }
+        }
+    }
+
+    private IEnumerator FadeOut()
+    {
+        fundidoAnim.Play("FadeOut");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Game");
+    }
+
+    private void InGameUpdate()
+    {
+        if (playerHP.vida <= 0)
+        {
+            SceneManager.LoadScene("PosGame");
+        }
+    }
+
+    private void PostGameUpdate()
+    {
+        if (resultsScreenAlreadyLoading)
+        {
+            return;
+        }
+
+        resultsScreenAlreadyLoading = true;
+        ShowGameResults();
+        StartCoroutine(ReturnToPrePagoAfterDelay());
+    }
+
+    private void ShowGameResults()
+    {
+        if (LevelManager.puntos <= 0)
+        {
+            LevelManager.puntos = 0;
+        }
+        totalScoreText.text = LevelManager.puntos.ToString();
+    }
+
+    private IEnumerator ReturnToPrePagoAfterDelay()
+    {
+        Debug.Log("entro en la corroutina");
+        yield return new WaitForSeconds(delayBeforeLoadPrePago);
+
+        SceneManager.LoadScene("PrePago");
+    }
+
+    private void ManageViewportReset()
+    {
         if (inputActionReset != null && (inputActionReset.action.IsPressed()))
         {
-            timer += Time.deltaTime;
-            if(timer >= 1.5)
+            currentPassedTimePressingReset += Time.deltaTime;
+            if (currentPassedTimePressingReset >= pressingTimeRequiredToResetView)
             {
-            ResetPosition();
-
+                ResetPosition();
             }
             Debug.Log("Pulso boton");
         }
         else
         {
-            timer = 0;
+            currentPassedTimePressingReset = 0;
         }
     }
-    void PreGame()
-    {
-        if(naveInicial != null)
-        {
-            naveInicial.GetComponent<NaveBasica>().naveState = NaveBasica.naveStates.PreGame;
 
-            if(naveInicial.GetComponent<NaveBasica>().health <= 0)
-            {
-                StartCoroutine(fundidoNegro());
-                
-            }
-        }
-    }
-    void inGame()
-    {
-        if(playerScript.vida <= 0)
-        {
-            SceneManager.LoadScene("PosGame");
-        }
-    }
     public void ResetPosition()
     {
-        if (escenaState == escenastates.Pre)
+        if (escenaState == SceneStates.Pre)
         {
             cartelResetVista.SetActive(false);
             cartelDisparaNave.SetActive(true);
         }
-        timer = 0f;
+        currentPassedTimePressingReset = 0f;
        
         float rotationAngleY = resetTransform.rotation.eulerAngles.y - playerHead.transform.rotation.eulerAngles.y;
 
@@ -119,26 +162,5 @@ public class SceneManage : MonoBehaviour
         Vector3 distanceDiff = resetTransform.position - player.transform.position;
 
         player.transform.position += distanceDiff;
-    }
-
-    IEnumerator fundidoNegro()
-    {
-        fundidoAnim.Play("FadeOut");
-        yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Game");
-    }
-    IEnumerator DelayPostGame()
-    {
-        if (LevelManager.puntos <= 0)
-        {
-            LevelManager.puntos = 0;
-        }
-        puntosFinal.text = LevelManager.puntos.ToString();
-        auxbool = false;
-        Debug.Log("entro en la corroutina");
-        yield return new WaitForSeconds(tiempoPostGame);
-        
-        SceneManager.LoadScene("PrePago");
-
     }
 }

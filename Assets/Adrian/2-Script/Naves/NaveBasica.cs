@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using PathCreation;
 
@@ -10,27 +9,28 @@ public class NaveBasica : MonoBehaviour
 
     [Header("Referencias")]
    
-    [SerializeField] Transform posDisparo;
-    [SerializeField] Transform posDisparo2;
-    [SerializeField] GameObject bala;
-    [SerializeField] GameObject explosionVFX;
-    [SerializeField] GameObject vfxDisparo;
+    [SerializeField] private Transform posDisparo;
+    [SerializeField] private Transform posDisparo2;
+    [SerializeField] private GameObject bala;
+    [SerializeField] private GameObject explosionVFX;
+    [SerializeField] private GameObject vfxDisparo;
+    [SerializeField] private PooledEnemy thisEnemy;
 
-    [SerializeField] Animator myAnim;
+    [SerializeField] private Animator myAnim;
 
     [Header("Parametros")]
     public int health;
-    [SerializeField] float speedRotation;
-    [SerializeField] float cadenciaDisparo;
-    [SerializeField] float startDelayDisparo;
-    [SerializeField] float speedMovement;
-    [SerializeField] float distanciaPlayer;
-    [SerializeField] int puntosDados;
+    [SerializeField] private float speedRotation;
+    [SerializeField] private float cadenciaDisparo;
+    [SerializeField] private float startDelayDisparo;
+    [SerializeField] private float speedMovement;
+    [SerializeField] private float distanciaPlayer;
+    [SerializeField] private int puntosDados;
 
     [Header("Pathing")]
     public PathCreator pathCreator;
-    [SerializeField] float speedPath;
-    [SerializeField] float duracionVuelo;
+    [SerializeField] private float speedPath;
+    [SerializeField] private float duracionVuelo;
 
     private Transform player;
        
@@ -143,7 +143,6 @@ public class NaveBasica : MonoBehaviour
         canRotate = false;
         puedoDisparar = false;
         if (auxMuerte) StartCoroutine(muerte());
-        Destroy(gameObject, 1f);
     }
 
     void Moving()
@@ -230,9 +229,10 @@ public class NaveBasica : MonoBehaviour
         GameObject vfxGo = Instantiate(explosionVFX, transform.position, transform.rotation);
         LevelManager.puntos = LevelManager.puntos + puntosDados;
         auxMuerte = false;
-              
-        Destroy(gameObject,0.1f);
-        yield return null;
+
+        yield return new WaitForSeconds(0.1f);
+
+        thisEnemy.Recycle();
     }
    
     void OnTriggerEnter(Collider other)

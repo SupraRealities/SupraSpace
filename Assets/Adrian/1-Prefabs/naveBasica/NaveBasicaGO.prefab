@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6009787779023195432}
+  - component: {fileID: 7966048055445588623}
   m_Layer: 7
   m_Name: NaveBasicaGO
   m_TagString: Untagged
@@ -32,6 +33,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7966048055445588623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6009787779023195433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ec45b5a0f451744835bdbb18543d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6009787779481746976
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +118,7 @@ MonoBehaviour:
       - 155.24054
       globalNormalsAngle: 242
       flipNormals: 0
-    vertexPathUpToDate: 0
+    vertexPathUpToDate: 1
     vertexPathMaxAngleError: 2.4
     vertexPathMinVertexSpacing: 0
     showTransformTool: 1
@@ -149,6 +162,10 @@ PrefabInstance:
       propertyPath: speedPath
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5380720364509872295, guid: adfac1deb3ca2a943860a648be577048, type: 3}
+      propertyPath: thisEnemy
+      value: 
+      objectReference: {fileID: 7966048055445588623}
     - target: {fileID: 5380720364509872295, guid: adfac1deb3ca2a943860a648be577048, type: 3}
       propertyPath: pathCreator
       value: 

@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 3074655795747716436}
   - component: {fileID: 5878590156201572573}
   - component: {fileID: 4830577616061194670}
+  - component: {fileID: 2265857153834404648}
   m_Layer: 7
   m_Name: Caza Supra Space
   m_TagString: Untagged
@@ -135,6 +136,7 @@ MonoBehaviour:
   bala: {fileID: 3560786838589024166, guid: 3571d21b316688846bd4cac80443e338, type: 3}
   explosionVFX: {fileID: 118304, guid: 36434e6052daf1b4da5e275207f83df6, type: 3}
   vfxDisparo: {fileID: 4027150067577807888, guid: 2556e5a360912cc4ea0b96302efb5bc9, type: 3}
+  thisEnemy: {fileID: 2265857153834404648}
   health: 2
   speedRotation: 10
   cadenciaDisparo: 1
@@ -156,6 +158,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 3.2989435
   m_Center: {x: 0.045248155, y: -0.800822, z: -2.08}
+--- !u!114 &2265857153834404648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3579133926264593537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ec45b5a0f451744835bdbb18543d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6764987490199509016
 GameObject:
   m_ObjectHideFlags: 0

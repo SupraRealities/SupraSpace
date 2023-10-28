@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 3123754316273421981}
   - component: {fileID: 2958286610173420881}
   - component: {fileID: 8889971743137889168}
+  - component: {fileID: 6339387710768561457}
   m_Layer: 7
   m_Name: nave_bombaV1
   m_TagString: naveAlien
@@ -266,6 +267,7 @@ MonoBehaviour:
   explosionGO: {fileID: 2822520225283195693}
   explosionVFX: {fileID: 125484, guid: 07f3658dbe182a540813a922f2cacc41, type: 3}
   explosionSFX: {fileID: 5576780842448447682, guid: a9d36d7bae5e53543a2164b01fc6c928, type: 3}
+  thisEnemy: {fileID: 6339387710768561457}
   health: 2
   speedRotation: 10
   radioExplosion: 5
@@ -417,6 +419,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6339387710768561457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895989737707400268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ec45b5a0f451744835bdbb18543d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1599718586589462379
 GameObject:
   m_ObjectHideFlags: 0

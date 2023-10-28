@@ -1,9 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 using UnityEngine.InputSystem;
+using SupraRealities.SupraSpace.Utilities.ObjectPoolPattern;
 
 public class Cannon : MonoBehaviour
 {
@@ -20,18 +20,22 @@ public class Cannon : MonoBehaviour
     private AudioSource myAudio;
 
     [Header("BalaGrande")]
-    [SerializeField] GameObject balafuerte;
-    [SerializeField] float cadenciaFuerte;
-    [SerializeField] GameObject vfxDisparoFuerte;
+    [SerializeField] private PooledObject balafuerte;
+    [SerializeField] private float cadenciaFuerte;
+    [SerializeField] private GameObject vfxDisparoFuerte;
+
+    private ObjectPool balasGrandesPool;
     
       
 
     [Header("BalaPequena")]
-    [SerializeField] GameObject balafloja;
-    [SerializeField] float cadenciaFloja;
-    [SerializeField] GameObject vfxDisparoFlojo;
-         
-        
+    [SerializeField] private PooledObject balafloja;
+    [SerializeField] private float cadenciaFloja;
+    [SerializeField] private GameObject vfxDisparoFlojo;
+
+    private ObjectPool balasPequenasPool;
+
+
 
     [Header("Vibracion")]
     public float IzqODer;
@@ -44,14 +48,7 @@ public class Cannon : MonoBehaviour
 
 
     private bool puedoDisparar;
-    
-   
-    void Start()
-    {
-        puedoDisparar = true;
-       
-     // myAudio = GetComponent<AudioSource>();
-    }
+
     private void Awake()
     {
         InputDeviceCharacteristics leftHandCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.HeldInHand | InputDeviceCharacteristics.Controller | InputDeviceCharacteristics.TrackedDevice;
@@ -65,7 +62,6 @@ public class Cannon : MonoBehaviour
         {
             if (rightControllers.Count > 0)
             {
-
                 rightHand = rightControllers[0];
                 rightHand.SendHapticImpulse(0, 0.5f, 1.0f);
             }
@@ -79,27 +75,21 @@ public class Cannon : MonoBehaviour
                 rightHand.SendHapticImpulse(0, 0.5f, 1.0f);
             }
         }
-    }  
+    }
 
-    void Update()
+    private void Start()
     {
-        //if (inputActionJoystick.action.triggered)
-        //{
-        //    if (puedoDisparar) StartCoroutine(disparoflojo());
-        //}
-        //Debug.Log("X" + inputActionJoystickX.action.ReadValue)
-        //if ()
-        //{
-        //    if (puedoDisparar) StartCoroutine(disparoflojo());
-        //}
+        puedoDisparar = true;
+        balasGrandesPool = new ObjectPool(balafuerte);
+        balasPequenasPool = new ObjectPool(balafloja);
+    }
 
-
-      //  DisparoFlojo
+    private void Update()
+    {
+        //  DisparoFlojo
         if (inputActionR.action.ReadValue<float>() > 0.8f || inputActionSpace.action.ReadValue<float>() > 0.8f)
         {
-
             if (puedoDisparar) StartCoroutine(disparoflojo());
-
         }
         //DisparoFuerte
         if (inputActionL.action.ReadValue<float>() > 0.8f || inputActionSpace.action.ReadValue<float>() > 0.8f)
@@ -107,75 +97,71 @@ public class Cannon : MonoBehaviour
             if (puedoDisparar) StartCoroutine(disparofuerte());            
         }
              
-        if(inputActionReset.action.ReadValue<float>() > 0.8f)
+        if (inputActionReset.action.ReadValue<float>() > 0.8f)
         {
             //SceneManager.LoadScene("PosGame");
         }
     }
  
-    IEnumerator disparoflojo()
+    private IEnumerator disparoflojo()
     {
         if (IzqODer == 0)
+        {
             rightHand.SendHapticImpulse(0, potencia, duracion);
+        }
         else
+        {
             leftHand.SendHapticImpulse(0, potencia, duracion);
+        }
 
         //DISPARO
-        GameObject go = Instantiate(balafloja, posicionDisparo.transform.position, posicionDisparo.transform.rotation);
+        PooledObject balaPequenaInstance = balasPequenasPool.GetObject();
+        balaPequenaInstance.transform.SetPositionAndRotation(posicionDisparo.transform.position, posicionDisparo.transform.rotation);
+        balaPequenaInstance.transform.localScale = new Vector3(4, 4, 4);
         puedoDisparar = false;
-        go.transform.localScale = new Vector3(4, 4, 4);
+
         //VFX
         GameObject vfxgo = Instantiate(vfxDisparoFlojo, posicionDisparo.transform.position, posicionDisparo.transform.rotation);
         StartCoroutine(delayDisparo(vfxgo));
-            
-        StartCoroutine(destruirBala(go));
 
         yield return new WaitForSeconds(cadenciaFloja);
         puedoDisparar = true;
       
     }
-    IEnumerator disparofuerte()
+    private IEnumerator disparofuerte()
     {
         if (IzqODer == 0)
+        {
             rightHand.SendHapticImpulse(0, potencia, duracion);
+        }
         else
+        {
             leftHand.SendHapticImpulse(0, potencia, duracion);
+        }
 
         //DISPARO
-        GameObject go = Instantiate(balafuerte, posicionDisparo.transform.position, posicionDisparo.transform.rotation);
+        PooledObject balaGrandeInstance = balasGrandesPool.GetObject();
+        balaGrandeInstance.transform.SetPositionAndRotation(posicionDisparo.transform.position, posicionDisparo.transform.rotation);
         puedoDisparar = false;
+
         //VFX
         GameObject vfxGoFuerte = Instantiate(vfxDisparoFuerte, posicionDisparo.transform.position, posicionDisparo.transform.rotation);
         StartCoroutine(delayDisparo(vfxGoFuerte));
-                 
-
-        StartCoroutine(destruirBalaGrande(go));
 
         yield return new WaitForSeconds(cadenciaFuerte);
         puedoDisparar = true;
+    }
 
-    }
-    IEnumerator destruirBala(GameObject go)
-    {
-        yield return new WaitForSeconds(0.7f);
-        Destroy(go);
-    }
-    IEnumerator destruirBalaGrande(GameObject go)
-    {
-        yield return new WaitForSeconds(2f);
-        Destroy(go);
-    }
-    IEnumerator delayDisparo(GameObject vfxgo)
+    private IEnumerator delayDisparo(GameObject vfxgo)
     {        
         yield return new WaitForSeconds(0.8f);
         Destroy(vfxgo);
-        
     }
-    IEnumerator delayDisparo2(GameObject vfxGoFuerte)
+
+    private IEnumerator delayDisparo2(GameObject vfxGoFuerte)
     {       
         yield return new WaitForSeconds(0.8f);
         Destroy(vfxGoFuerte);
-
     }
 
 }

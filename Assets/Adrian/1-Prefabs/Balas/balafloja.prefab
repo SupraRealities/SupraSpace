@@ -111,7 +111,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0aac920c670db540bcabb24937b6d59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadBala: 30
+  vfxImpact: {fileID: 8438551950538890656, guid: f228d0f25b13a17488f7bcab458b4f33, type: 3}
+  velocidadBala: 350
+  tiempoDeVida: 0.7
 --- !u!54 &6723195718572125357
 Rigidbody:
   m_ObjectHideFlags: 0

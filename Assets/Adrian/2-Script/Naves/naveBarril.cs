@@ -1,27 +1,28 @@
+using SupraRealities.SupraSpace.Utilities.ObjectPoolPattern;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class naveBarril : MonoBehaviour
+public class naveBarril : PooledObject
 {
     public enum naveStates { desplazandose,kamikaze, Die}
     public naveStates naveState;
 
     [Header("Referencias")]
            
-    [SerializeField] GameObject explosionGO;
-    [SerializeField] GameObject explosionVFX;
-    [SerializeField] GameObject explosionSFX;
+    [SerializeField] private GameObject explosionGO;
+    [SerializeField] private GameObject explosionVFX;
+    [SerializeField] private GameObject explosionSFX;
+    [SerializeField] private PooledEnemy thisEnemy;
 
     [Header("Parametros")]
     public int health;
-    [SerializeField] float speedRotation;
-    [SerializeField] float radioExplosion;
-    [SerializeField] float pausaKamikaze;
-    [SerializeField] float distanciaKamikaze;
+    [SerializeField] private float speedRotation;
+    [SerializeField] private float radioExplosion;
+    [SerializeField] private float pausaKamikaze;
+    [SerializeField] private float distanciaKamikaze;
         
-    [SerializeField] float speedMovement;
-    [SerializeField] int puntosDados;
+    [SerializeField] private float speedMovement;
+    [SerializeField] private int puntosDados;
        
     private Transform player;
     private Transform destino;
@@ -48,9 +49,8 @@ public class naveBarril : MonoBehaviour
         explosionGO.SetActive(false);
         distanciaDestino = 100f;      
     }
-   
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
         switch (naveState)
         {
@@ -71,7 +71,7 @@ public class naveBarril : MonoBehaviour
         distanciaDestino = Vector3.Distance(transform.position, player.position);
     }
 
-    void Atacando()
+    private void Atacando()
     {
         canRotate = true;       
         canMove = true;
@@ -80,26 +80,27 @@ public class naveBarril : MonoBehaviour
         if (distanciaDestino <= distanciaKamikaze) naveState = naveStates.kamikaze;
         
     }
-    void Kamikaze()
+
+    private void Kamikaze()
     {
         if (auxKamikaze) StartCoroutine(delayKamikaze());
 
         if (distanciaDestino <= 5f) naveState = naveStates.Die;
         if (health <= 0) naveState = naveStates.Die;
     }
-   
-    void Moving()
+
+    private void Moving()
     {
         transform.position = Vector3.MoveTowards(transform.position, player.position, speedMovement * Time.deltaTime);
     }
 
-    void Rotation()
+    private void Rotation()
     {
         Quaternion lookDirection = Quaternion.LookRotation(player.position - transform.position);
 
         transform.rotation = Quaternion.Slerp(transform.rotation, lookDirection, speedRotation * Time.deltaTime);
-    }     
-   IEnumerator delayKamikaze()
+    }
+    private IEnumerator delayKamikaze()
     {
         auxKamikaze = false;
         canMove = false;
@@ -111,12 +112,12 @@ public class naveBarril : MonoBehaviour
         speedMovement = speedMovement * 2f;
 
     }
-    IEnumerator muerte()
+
+    private IEnumerator muerte()
     {
         LevelManager.puntos = LevelManager.puntos + puntosDados;
         canMove = false;
         canRotate = false;
-        Destroy(gameObject,0.2f);
 
         explosionGO.SetActive(true);
         auxMuerte = false;
@@ -127,11 +128,12 @@ public class naveBarril : MonoBehaviour
         Destroy(vfxGo, 2f);
         GameObject sfxGO = Instantiate(explosionSFX, transform.position, transform.rotation);
         Destroy(sfxGO, 2f);
-        //gameObject.SetActive(false);
         
-        yield return null;
+        yield return new WaitForSeconds(0.2f);
+        thisEnemy.Recycle();
     }
-    void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("balafloja"))
         {            

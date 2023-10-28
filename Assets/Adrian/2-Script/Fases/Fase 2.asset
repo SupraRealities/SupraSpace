@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Fase 2
   m_EditorClassIdentifier: 
   list:
-  - {fileID: 96138634446718045, guid: 123a84f3993f0b444b4e2481c6170f4d, type: 3}
-  - {fileID: 6009787779023195433, guid: 7b733fc397e56514dafe3219dcc7142f, type: 3}
-  - {fileID: 2449605791128452717, guid: 8aba6f6ef4c3b5b4d81f22ed8ebf71c5, type: 3}
-  - {fileID: 895989737707400268, guid: ec49dd217d618be4aaef92a981e34d5c, type: 3}
-  myName: Fase 2
+  - {fileID: 5857395782128025599, guid: 123a84f3993f0b444b4e2481c6170f4d, type: 3}
+  - {fileID: 7966048055445588623, guid: 7b733fc397e56514dafe3219dcc7142f, type: 3}
+  - {fileID: 3009971060000040102, guid: 8aba6f6ef4c3b5b4d81f22ed8ebf71c5, type: 3}
+  - {fileID: 1829348998606486599, guid: ec49dd217d618be4aaef92a981e34d5c, type: 3}
+  stageName: Stage 02
   tiempoSiguienteFase: 15
