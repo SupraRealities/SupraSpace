@@ -156,9 +156,9 @@ public class SceneManage : MonoBehaviour
         }
         currentPassedTimePressingReset = 0f;
        
-        float rotationAngleY = resetTransform.rotation.eulerAngles.y - playerHead.transform.rotation.eulerAngles.y;
+        //float rotationAngleY = resetTransform.rotation.eulerAngles.y - playerHead.transform.rotation.eulerAngles.y;
 
-        player.transform.Rotate(xAngle: 0, rotationAngleY, zAngle: 0);
+        //player.transform.Rotate(xAngle: 0, rotationAngleY, zAngle: 0);
         Vector3 distanceDiff = resetTransform.position - player.transform.position;
 
         player.transform.position += distanceDiff;

@@ -44,6 +44,5 @@ public class RecenterPlayer : MonoBehaviour
         XRDevice.SetTrackingSpaceType(TrackingSpaceType.RoomScale);
         transform.position = newPosition;
         recentered = true; // Set the flag to indicate that recentering has occurred
-
     }
 }

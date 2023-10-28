@@ -1,4 +1,0 @@
-repository "SupraSpace@adriangarrido777@cloud"
-  path "/"
-    br "/main"
-    co "/main"
