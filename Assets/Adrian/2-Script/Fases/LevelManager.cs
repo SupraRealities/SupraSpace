@@ -59,7 +59,6 @@ public class LevelManager : MonoBehaviour
         else
         {
             SceneManager.LoadScene("PosGame");
-            Debug.Log("Se acabó");
         }
     }
 

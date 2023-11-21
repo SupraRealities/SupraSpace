@@ -992,6 +992,9 @@ MonoBehaviour:
   inputActionR: {fileID: 3646280420847773561, guid: 7febcebe21c75724d99670639747876e, type: 3}
   inputActionSpace: {fileID: 4953383109171005572, guid: 7febcebe21c75724d99670639747876e, type: 3}
   inputActionReset: {fileID: 7934704116491157015, guid: 7febcebe21c75724d99670639747876e, type: 3}
+  inputActionJoystick: {fileID: 0}
+  inputActionJoystickX: {fileID: 0}
+  inputActionJoystickY: {fileID: 0}
   posicionDisparo: {fileID: 558375437}
   mandoDer: {fileID: 1900661593}
   balafuerte: {fileID: 6107604188119970905, guid: 1264b24e6359c8241a858370b46a65fc, type: 3}
@@ -1616,14 +1619,15 @@ MonoBehaviour:
   player: {fileID: 0}
   playerHead: {fileID: 0}
   inputActionReset: {fileID: 0}
+  pressingTimeRequiredToResetView: 1.5
   naveInicial: {fileID: 0}
   escenaState: 2
-  playerScript: {fileID: 0}
-  tiempoPostGame: 15
+  playerHP: {fileID: 0}
+  delayBeforeLoadPrePago: 6
   fundidoAnim: {fileID: 1842019572}
   cartelResetVista: {fileID: 0}
   cartelDisparaNave: {fileID: 0}
-  puntosFinal: {fileID: 81599234}
+  totalScoreText: {fileID: 81599234}
 --- !u!4 &1148318860
 Transform:
   m_ObjectHideFlags: 0
